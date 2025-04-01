@@ -1,0 +1,26 @@
+{
+    "hk_camera":{
+        "hk_industry_camera":{
+            "resolution": ["1920*1080", "2560*1440"],
+            "frameRate": [1, 5, 10, 20, 30],
+            "inferenceFrameRate": [1, 2, 3, 4, 5]
+        },
+        "hk_security_camera":{
+            "resolution": ["1920*1080", "2560*1440", "720p", "360p"],
+            "frameRate": [1, 5, 10, 15, 20],
+            "inferenceFrameRate": [1, 2, 3, 4, 5]
+        }
+    },
+    "dahua_camera":{
+        "dahua_industry_camera":{
+            "resolution": ["1920*1080", "2560*1440", "1080p"],
+            "frameRate": [1, 5, 10, 20, 30],
+            "inferenceFrameRate": [1, 2, 3, 4, 5]
+        },
+        "dahua_security_camera":{
+            "resolution": ["1920*1080", "2560*1440", "720p", "480p", "360p"],
+            "frameRate": [1, 2, 3, 4, 5, 10, 15, 20],
+            "inferenceFrameRate": [1, 2, 3, 4, 5]
+        }
+    }
+}

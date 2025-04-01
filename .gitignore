@@ -1,0 +1,13 @@
+# 忽略 C++ 编译产物
+*.exe
+*.o
+*.out
+*.dll
+*.so
+*.a
+
+# 忽略构建目录
+build/
+bin/
+Debug/
+Release/
